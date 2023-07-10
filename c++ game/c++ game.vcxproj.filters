@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="场景">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="对象">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="工具">
+      <UniqueIdentifier>{24ba073d-c9df-4011-a821-a3f25fb80491}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Props.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Mybutton.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="Blood.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TitleScene.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Props.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Mybutton.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="Blood.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\platformChar_idle.png">
+      <Filter>资源</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

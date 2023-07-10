@@ -1,0 +1,6 @@
+﻿  GameScene.cpp
+C:\Users\legion\Desktop\c++ game\c++ game\GameScene.cpp(404,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\legion\Desktop\c++ game\c++ game\GameScene.cpp(406,26): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+C:\Users\legion\Desktop\c++ game\c++ game\GameScene.cpp(467,33): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+C:\Users\legion\Desktop\c++ game\c++ game\GameScene.cpp(469,27): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  c++ game.vcxproj -> C:\Users\legion\Desktop\c++ game\x64\Debug\c++ game.exe

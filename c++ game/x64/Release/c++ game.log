@@ -1,0 +1,3 @@
+﻿libeasy2d.lib(Node.obj) : error LNK2001: 无法解析的外部符号 __std_find_trivial_8
+libeasy2d.lib(ActionManager.obj) : error LNK2001: 无法解析的外部符号 __std_find_trivial_8
+C:\Users\legion\Desktop\c++ game\x64\Release\c++ game.exe : fatal error LNK1120: 1 个无法解析的外部命令
